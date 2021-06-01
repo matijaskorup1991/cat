@@ -28,7 +28,9 @@ function catWalk(param = 100) {
 }
 
 function pause() {
-  clearInterval(myInterval);
+  for (let i = 0; i < 50; i++) {
+    clearInterval(i);
+  }
 }
 
 function turn() {
